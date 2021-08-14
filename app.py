@@ -51,7 +51,7 @@ def banana_model_predict(img_path, model):
         preds="Pestalotiopsis"
     else:
         preds="Sigatoka" 
-    return preds
+    return preds #+  " (" + str(predict[0][np.argmax(predict[0])]*100) + "%)"
 
 def plant_model_predict(img_path, model):
     img = image.load_img(img_path, target_size=(224, 224)) #Corn_Blight (1002)
@@ -74,7 +74,7 @@ def plant_model_predict(img_path, model):
         preds="Gray Leaf Spot"
     else:
         preds="Healthy"
-    return preds
+    return preds #+  " (" + str(predict[0][np.argmax(predict[0])]*100) + "%)"
 
 def village_model_predict(img_path, model):
     img = image.load_img(img_path, target_size=(50, 50))
@@ -165,7 +165,8 @@ def village_model_predict(img_path, model):
         preds="Tomato: Mosaic Virus" 
     elif preds==37:
         preds="Tomato: Yellow Leaf Curl Virus"  
-    return preds
+    return preds #+  " (" + str(predict[0][np.argmax(predict[0])]*100) + "%)"
+
 
 
 @app.route('/', methods=['GET'])
@@ -187,6 +188,7 @@ def plant_index():
 def village_index():
     # Plant Disease Data Page
     return render_template('village_index.html')
+
 
 
 @app.route('/banana_model/predict', methods=['GET', 'POST'])
@@ -239,6 +241,7 @@ def village_upload():
         result = village_model_predict(file_path, village_model)
         return result
     return None
+
 
 
 if __name__ == '__main__':
