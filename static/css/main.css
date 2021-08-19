@@ -64,15 +64,28 @@ p{
     word-wrap: break-word;
 }
 
+.row{
+    display: block !important;
+}
+
 
 .frame{
     margin: 0 auto;   
-    width: 20%;
+    width: 23%;
     text-align: center;
+    display: inline-grid;
     /* border: 3px solid black; */
     /* background: white; */
-    /* margin: auto; */
+    margin: auto;
     /* padding: 15px 15px; */
+}
+
+.home{
+    margin: 0 auto;   
+    width: 19%;
+    text-align: center;
+    display: inline-grid;
+    /* margin: auto; */
 }
 
 /* img {

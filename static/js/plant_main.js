@@ -52,7 +52,7 @@ $(document).ready(function () {
                   //  alert('Disease is Sigatoka');
                      $('#solution-div').text("ABOUT:\n");
                      $('#solution-div').append("<br/>");
-                     $('#solution-div').append("\nCorn leaf blight is one of the most frustrating problems for commercial growers. <br/> Even in backyard plantings, this can be a significant problem, especially when the external environment is favorable for the disease. <br/> To prevent frustration, it is important to know how to get rid of corn leaf blight, especially in a manner that is natural and safe. <br/> As the name implies, corn is the main host for this disease, although there are specific cultivars of corn that are more susceptible compared to others.");
+                     $('#solution-div').append("\nCorn leaf blight is one of the most frustrating problems for commercial growers. <br/> Even in backyard plantings, this can be a significant problem, especially when the external environment is favorable for the disease. <br/> To prevent frustration, it is important to know how to get rid of corn leaf blight, especially in a manner that is natural and safe. <br/> As the name implies, corn is the main host for this disease, although there are specific cultivars of corn that are more susceptible compared to others. <br/>");
                      $('#solution-div').append("<br/>");
                      $('#solution-div').append("SYMPTOMS:\n");
                      $('#solution-div').append("<br/>");
@@ -108,7 +108,7 @@ $(document).ready(function () {
                      $('#solution-div').append("<br/>");
                      $('#solution-div').append("How to Grow Corn Plants:\n");
                      $('#solution-div').append("<br/>");
-                     $('#solution-div').append("\nTo enhance germination, soak the seeds in room-temperature water for three to five days. <br/> Sprinkle two to three seeds in a small pot of moistened seed starting mix. Cover the seeds lightly with the seed starting mix. <br/> Place the pot on a warm, germinating mat and cover with clear plastic wrap. <br/> Maintain soil temperature between 68 and 80 F under a grow light or bright, indirect sunlight. <br/> The soil should remain slightly moist. If the soil is too damp, the seeds can rot. <br/> Once you notice some growth (it can take as long as 4 to 6 weeks), remove the plastic. <br/> Transplant once the seedling develops two true leaves into a 3-inch pot using potting soil.");
+                     $('#solution-div').append("\nTo enhance germination, soak the seeds in room-temperature water for three to five days. <br/> Sprinkle two to three seeds in a small pot of moistened seed starting mix. Cover the seeds lightly with the seed starting mix. <br/> Place the pot on a warm, germinating mat and cover with clear plastic wrap. <br/> Maintain soil temperature between 68 and 80 F under a grow light or bright, indirect sunlight. <br/> The soil should remain slightly moist. If the soil is too damp, the seeds can rot. <br/> Once you notice some growth (it can take as long as 4 to 6 weeks), remove the plastic. <br/> Transplant once the seedling develops two true leaves into a 3-inch pot using potting soil. <br/>");
                      $('#solution-div').append("<br/>");
                      $('#solution-div').append("<br/>");
                      $('#solution-div').append("REFERENCE LINK: https://bit.ly/3m3j16b ");

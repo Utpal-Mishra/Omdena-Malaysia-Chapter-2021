@@ -59,7 +59,7 @@ $(document).ready(function () {
                      $('#solution-div').append("<br/>");
                      $('#solution-div').append("SOLUTION:\n");
                      $('#solution-div').append("<br/>");
-                     $('#solution-div').append("\nOrchard grade mineral oil can be sprayed on the banana every three weeks for a total of 12 applications to control Sigatoka. <br/>Commercial growers also use aerial spraying and systemic fungicide application to control the disease. \nSome banana cultivars also show some resistance to Sigatoka.");
+                     $('#solution-div').append("\nOrchard grade mineral oil can be sprayed on the banana every three weeks for a total of 12 applications to control Sigatoka. <br/>Commercial growers also use aerial spraying and systemic fungicide application to control the disease. \nSome banana cultivars also show some resistance to Sigatoka. <br/>");
                      $('#solution-div').append("<br/>");
                      $('#solution-div').append("<br/>");
                      $('#solution-div').append("REFERENCE LINK: https://bit.ly/3CKaPhl");
@@ -67,11 +67,11 @@ $(document).ready(function () {
                 }else if(data === 'Pestalotiopsis'){
                      $('#solution-div').text("ABOUT:\n");
                      $('#solution-div').append("<br/>");
-                     $('#solution-div').append("\n");
+                     $('#solution-div').append("\nPestalotiopsis is the causative agent of a fungal disease of bananas, coconut and Date palms. <br/> The fungus causes leaf spots, petiole/rachis blights and sometimes at bud rot. <br/> Unlike other leaf spot and blight diseases, Pestalotiopsis palmarun attacks all parts of the leaf from the base to the tip. <br/>    Whereas most diseases only infect the leaf blade or the leaf petiole. <br/>");
                      $('#solution-div').append("<br/>");
                      $('#solution-div').append("SYMPTOMS:\n");
                      $('#solution-div').append("<br/>");
-                     $('#solution-div').append("\nIt has been shown that the fungus usually requires wounds to infect the plant and necessary for the fungus to develop. <br/> The first symptoms of Pestalotiopsis begin as very small yellow, brown or black discoloration of the leaves. <br/> The disease can be restricted to the leaf blade or may only appear on the petiole and rachis right away. <br/> Spots and discoloration areas can be smaller than 0.25 inches (6.4 mm) in size, but under optimal conditions can grow much larger eventually forming lesions. The spots will often turn a grayish color and will be outlined in black. <br/> Extreme wilting and a drying appearance on the leaves is also a major symptom of Pestalotiopsis. <br/> In mature plant, if the fungus is limited to only leaf spots, the disease may not be very serious and damaging. <br/> However, the fungus can severely affect juvenile plants if only a few leaf spots are present because they have yet to develop a trunk and only have a few leaves.");
+                     $('#solution-div').append("\nIt has been shown that the fungus usually requires wounds to infect the plant and necessary for the fungus to develop. <br/> The first symptoms of Pestalotiopsis begin as very small yellow, brown or black discoloration of the leaves. <br/> The disease can be restricted to the leaf blade or may only appear on the petiole and rachis right away. <br/> Spots and discoloration areas can be smaller than 0.25 inches (6.4 mm) in size, but under optimal conditions can grow much larger eventually forming lesions. The spots will often turn a grayish color and will be outlined in black. <br/> Extreme wilting and a drying appearance on the leaves is also a major symptom of Pestalotiopsis. <br/> In mature plant, if the fungus is limited to only leaf spots, the disease may not be very serious and damaging. <br/> However, the fungus can severely affect juvenile plants if only a few leaf spots are present because they have yet to develop a trunk and only have a few leaves. <br/>");
                      $('#solution-div').append("<br/>");
                      $('#solution-div').append("SOLUTION:\n");
                      $('#solution-div').append("<br/>");
@@ -79,7 +79,7 @@ $(document).ready(function () {
                      $('#solution-div').append("\nWind and water movement easily disperses spores of Pestalotiopsis palmarum so sanitation and irrigation management can be proven to be critical in preventing the movement of the disease. <br/> Wounds and damage to the plant offer easy access for the fungus so the limitation of human and insect activity can be very beneficial. <br/> Limiting the length of time that the leaves are wet when exposed to high humidity levels also reduces the risk of inoculation. <br/> So eliminating overhead irrigation can prevent infection on leaves when there is favorable humid weather. <br/> Nutrient management is also very important in controlling Pestalotopsis palmarum. Nutrient deficiencies can cause chlorosis and necrosis of leaf tissue which then in turn creates a wound necessary for disease inoculation.<br/>");
                      $('#solution-div').append("<br/>");
                      $('#solution-div').append("<br/>");
-                     $('#solution-div').append("REFERENCE LINK: https://wikimili.com/en/Pestalotiopsis_palmarum");
+                     $('#solution-div').append("REFERENCE LINK: https://bit.ly/37JC3WU ");
                      $('#solution-div').append("<br/>");//$('#solution-div').attr('style','color:green;');
                 }else if(data === 'Cordana'){
                      $('#solution-div').text("ABOUT:\n");
@@ -92,7 +92,7 @@ $(document).ready(function () {
                      $('#solution-div').append("<br/>");
                      $('#solution-div').append("SOLUTION:\n");
                      $('#solution-div').append("<br/>");
-                     $('#solution-div').append("\nSpray 0.25% Kavach or 0.25% Indofil M-45 or 0.1% Tilt at 15 days interval");
+                     $('#solution-div').append("\nSpray 0.25% Kavach or 0.25% Indofil M-45 or 0.1% Tilt at 15 days interval. <br/>");
                      $('#solution-div').append("<br/>");
                      $('#solution-div').append("<br/>");
                      $('#solution-div').append("REFERENCE LINK: https://bit.ly/37GHSVc");
